@@ -26,7 +26,7 @@ const Experiences = () => {
     <section id="experiences">
       <Container>
         <div className="experience-wrapper">
-          <Title title="Experience" />
+          <Title title="Experience at a Glance" />
           {experiences.map((experience) => {
             const {
               company,
@@ -64,23 +64,25 @@ const Experiences = () => {
                           <span>{duration || 'Then - Now'}</span>
                         </p>
                         <p className="mb-4">
-                          <span className="experience-wrapper__text-subtitle">Last Role:</span>{' '}
+                          <span className="experience-wrapper__text-strong">Last Role:</span>{' '}
                           {role || ''}
                         </p>
                         {roleExpansion && <p className="mb-4"> {roleExpansion || ''}</p>}
                         <p className="mb-4">
-                          <span className="experience-wrapper__text-subtitle">The Company: </span>{' '}
+                          <span className="experience-wrapper__text-strong">The Company: </span>{' '}
                           {about || ''}
                         </p>
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        More Detail
-                      </a>
+                      {url && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero"
+                          href={url || '#!'}
+                        >
+                          Company Website
+                        </a>
+                      )}
                       {repo && (
                         <a
                           target="_blank"

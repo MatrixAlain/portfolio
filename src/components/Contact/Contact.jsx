@@ -11,23 +11,39 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
-        <Title title="Contact" />
+        <Title title="Contact Me" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
-            </p>
+            <p className="contact-wrapper__text">{cta || 'Want to get in touch?'}</p>
             <form name="Contact Form" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="Contact Form" />
               <input type="hidden" name="form-name" value="Contact Form" />
               <div className="form-group social-links">
-                <input id="contact_name" type="text" name="name" className="form-control form-control-lg w-50" placeholder="Your Name"/>
+                <input
+                  id="contact_name"
+                  type="text"
+                  name="name"
+                  className="form-control form-control-lg w-75"
+                  placeholder="Your Name"
+                />
               </div>
               <div className="form-group social-links">
-                <input id="contact_email" type="email" name="email" className="form-control form-control-lg w-50" placeholder="Your Email"/>
+                <input
+                  id="contact_email"
+                  type="email"
+                  name="email"
+                  className="form-control form-control-lg w-75"
+                  placeholder="Your Email"
+                />
               </div>
               <div className="form-group social-links">
-                <textarea id="contact_message" name="message" className="form-control form-control-lg w-50"  rows="5" placeholder="Your Message"/>
+                <textarea
+                  id="contact_message"
+                  name="message"
+                  className="form-control form-control-lg w-75"
+                  rows="5"
+                  placeholder="Your Message"
+                />
               </div>
               <button className="cta-btn cta-btn--resume" type="submit">
                 {btn || "Let's Talk"}
