@@ -24,7 +24,7 @@
     }
 
     &__text,
-    a {
+    a, button {
       font-size: 2.4rem;
 
       // Responsive for contact text
@@ -32,5 +32,11 @@
         font-size: 2rem;
       }
     }
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }

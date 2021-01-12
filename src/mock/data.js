@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello. My name is',
   name: 'Alain Ritchie.',
-  subtitle: "I'm an experienced problem solver. Specialising in technology & data transformation.",
+  subtitle: "I'm an experienced problem solver; specialising in realistic digital transformation.",
   cta: 'Tell me more',
 };
 
@@ -66,10 +66,12 @@ export const experiencesData = [
     id: nanoid(),
     img: 'data-vis.jpg',
     company: 'Matrix APA',
-    title: 'Head of Business Intelligence & Technology',
+    title: 'Head of Development, Head of Business Intelligence & Technology',
     duration: 'Feb 2018 - Present',
     role:
       'Managing a superb team of internal and external people, to create an amazing Technology ecosystem, and first class Business Intelligence, to support and accelerate a well-informed and purpose-led business.',
+    roleExpansion:
+      'Building and implementing a digital transformation strategy that drives business process efficiency, productivity and profitability through the identification of opportunity, solutions and effective methods of delivery',
     about:
       'Matrix create and deliver amazing brands and products in beauty and lifestyle and are a certified B-Corp.',
     url: 'https://www.thisismatrix.com',
@@ -101,7 +103,7 @@ export const experiencesData = [
     id: nanoid(),
     img: 'phone.jpg',
     company: 'Vodafone UK',
-    title: 'CRM Capability Manager',
+    title: 'Outbound Capability Specialist, CRM Capability Manager',
     duration: 'Oct 2007 - Jan 2014',
     role:
       'Leading a team of technical specialists to support, develop and deliver customer-facing business solutions. Residing within a CRM business function, this role acts as the technical-business interface, ensuring current and future technical CRM requirements are delivered.',

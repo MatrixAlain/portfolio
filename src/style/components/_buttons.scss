@@ -83,3 +83,10 @@
 .up i {
   color: #272727;
 }
+
+button {
+  background-color: transparent;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $default-font-size;
+}

@@ -28,7 +28,18 @@ const Experiences = () => {
         <div className="experience-wrapper">
           <Title title="Experience" />
           {experiences.map((experience) => {
-            const { company, title, duration, about, role, url, repo, img, id } = experience;
+            const {
+              company,
+              title,
+              duration,
+              about,
+              role,
+              roleExpansion,
+              url,
+              repo,
+              img,
+              id,
+            } = experience;
 
             return (
               <Row key={id}>
@@ -49,11 +60,18 @@ const Experiences = () => {
                           <span className="experience-wrapper__text-subtitle">
                             {title || 'The Boss'}
                           </span>
-                          <br></br>
+                          <br />
                           <span>{duration || 'Then - Now'}</span>
                         </p>
-                        <p className="mb-4"><span className="experience-wrapper__text-subtitle">Last Role:</span> {role || ''}</p>
-                        <p className="mb-4"><span className="experience-wrapper__text-subtitle">The Company:  </span> {about || ''}</p>
+                        <p className="mb-4">
+                          <span className="experience-wrapper__text-subtitle">Last Role:</span>{' '}
+                          {role || ''}
+                        </p>
+                        {roleExpansion && <p className="mb-4"> {roleExpansion || ''}</p>}
+                        <p className="mb-4">
+                          <span className="experience-wrapper__text-subtitle">The Company: </span>{' '}
+                          {about || ''}
+                        </p>
                       </div>
                       <a
                         target="_blank"
@@ -63,15 +81,15 @@ const Experiences = () => {
                       >
                         More Detail
                       </a>
-                      {repo && ( 
-                      <a
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="cta-btn text-color-main"
+                      {repo && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn text-color-main"
                           href={url || '#!'}
                         >
-                              Company Website
-                            </a>
+                          Company Website
+                        </a>
                       )}
                     </div>
                   </Fade>
