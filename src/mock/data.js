@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'I am an entrepreneurial, motivated individual with more than 15 years of technology, software, business and data development experience. I specialise in the generation of commercial value and optimisation of business efficiency through the design and implementation of bespoke solutions.',
   paragraphTwo:
-    'With great exeprience providing a CIO service in an SME environment, there is no doubt that I am a hands-on individual.',
+    'With great experience providing a CIO service in an SME environment, there is no doubt that I am a hands-on individual.',
   paragraphThree:
     'I am tenacious and dedicated in character, with history of delivering innovative and successful solutions to problems across corporate, SME and lean start-up environments.',
   paragraphFour:

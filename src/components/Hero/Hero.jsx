@@ -29,14 +29,15 @@ const Header = () => {
             {title || 'Hello. My name is'}{' '}
             <span className="text-color-main">{name || 'Alain Ritchie'}</span>
             <br />
-            {subtitle || "I'm a technical problem solver."}
+            {subtitle ||
+              "I'm an experienced problem solver, specialising in realistic digital transformation."}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
-                {cta || 'Know more'}
+                {cta || 'Tell me more'}
               </Link>
             </span>
           </p>
