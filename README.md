@@ -1,21 +1,12 @@
-## Features
+## Summary
 
-⚡️ Modern UI Design + Reveal Animations\
-⚡️ One Page Layout built with React\
-⚡️ Styled with Bootstrap v4.3 + Custom SCSS\
-⚡️ Fully Responsive\
-⚡️ Configurable color scheme\
-⚡️ Image optimization with Gatsby\
-⚡️ Easy site customization\
-⚡️ Well organized documentation
+A lightweight, one-page portfolio site built on Gatsby, using React and Bootstrap.
 
----
-
-## Getting Started 🚀
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites 📋
+### Prereqs
 
 You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.\
 Also you need to have installed [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/)
@@ -28,16 +19,16 @@ gatsby-cli@2.8.22 or higher
 ```
 ---
 
-## How To Use 🔧
+## How To Use
 
 From your command line, first clone Simplefolio:
 
 ```bash
 # Clone this repository
-$ git clone X
+$ git clone https://github.com/MatrixAlain/portfolio
 
 # Go into the repository
-$ cd XY
+$ cd portfolio
 
 # Remove current origin repository
 $ git remote remove origin
@@ -59,9 +50,7 @@ $ npm run develop
 
 ## Deployment 📦
 
-Once you have done with your setup. You need to put your website online!
-
-I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
+This site is currently hosted on [Netlify](https://netlify.com).
 
 ## Technologies used 🛠️
 
@@ -73,11 +62,13 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 
 ## Original Template Author
 
+This project was built on the back of a template provided by Jacobo Martinez and adapted to meet my own requirements. To see the original repo, please see the details below:
+
 - **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
 
 ## Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2365af6f-820a-4fb8-83e6-69a66f686dfe/deploy-status)](https://app.netlify.com/sites/gatsby-simplefolio/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a781fe8a-6031-4296-9b29-ff02ac97106d/deploy-status)](https://app.netlify.com/sites/reverent-wing-a81e07/deploys)
 
 ## License 📄
 

@@ -69,9 +69,9 @@ export const experiencesData = [
     title: 'Head of Business Intelligence & Technology',
     duration: 'Feb 2018 - Present',
     role:
-      'Managing a superb team of internal and external people, to create an amazing Technology ecosystem, and first class Business Intelligence, to support and accelerate a well-informed and purpose-led business.',
+      'Leading a talented team of internal and external people to create an outstanding technology ecosystem and first class Business Intelligence to support and accelerate a well-informed and purpose-led business as part of the Executive Leadership Team, reporting to the CEO.',
     roleExpansion:
-      'Building and implementing a digital transformation strategy that drives business process efficiency, productivity and profitability through the identification of opportunity, solutions and effective methods of delivery',
+      'Building and implementing a digital transformation strategy that drives business process efficiency, productivity and profitability through the identification of opportunity, solutions and effective methods of delivery.',
     about:
       'Matrix create and deliver amazing brands and products in beauty and lifestyle and are a certified B-Corp.',
     url: 'https://www.thisismatrix.com',
