@@ -32,6 +32,7 @@ const Footer = () => {
               );
             })}
         </div>
+        <div><a className="small-link" href="javascript:gaOptout();">Deactive Google Tracking</a></div>
         <hr />
       </Container>
     </footer>
